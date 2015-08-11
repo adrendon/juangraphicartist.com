@@ -8,8 +8,8 @@
 @import url('normalize.css');
 @import url("http://fonts.googleapis.com/css?family=Oswald:300,400,700");
 @import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&amp;subset=latin,latin-ext,cyrillic");
-/* ============================================================================= 
-1. General 
+/* =============================================================================
+1. General
 ============================================================================= */
 body{
 	font-family: 'PT Sans', Arial, Helvetica, sans-serif;
@@ -67,12 +67,12 @@ h1,h2,h3,h4,h5,h6{
 	font-family:'Oswald', Arial, Helvetica, sans-serif;
 	color:#292929;
 	margin-top:0;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 }
 p{
 	font-size:13px;
 	line-height:20px;
-	color:#666665;	
+	color:#666665;
 }
 .title h2{
     font-weight: normal;
@@ -82,8 +82,8 @@ p{
 	margin-bottom:10px;
 }
 
-/* ============================================================================= 
-2. Content Changer 
+/* =============================================================================
+2. Content Changer
 ============================================================================= */
 .jms-slideshow {
 	position: relative;
@@ -92,10 +92,10 @@ p{
 }
 .jms-wrapper {
 	width: 100%;
-	height: 100%;	
-	outline: none; -webkit-appearance: none;	
+	height: 100%;
+	outline: none; -webkit-appearance: none;
 }
-.step {	
+.step {
 	width: 960px;
     height: 470px;
 	display: block;
@@ -133,12 +133,12 @@ p{
 }
 .not-supported .jms-wrapper {
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 	outline: none; -webkit-appearance: none;
 }
 
-/* ============================================================================= 
-3. Main Menu 
+/* =============================================================================
+3. Main Menu
 ============================================================================= */
 nav select {
     display:none; /* this is just for the mobile display */
@@ -177,36 +177,36 @@ nav a {
 	display:				block;
 	height:					100%;
 	padding:				1em 0;
-	text-decoration: 		none; 
+	text-decoration: 		none;
 	color:					#999;
 	letter-spacing: 		1px;
 	font-family:"Oswald", Arial, Helvetica, sans-serif;
-	font-size:15px;	
-	font-weight:300;	
+	font-size:15px;
+	font-weight:300;
 	text-shadow:none;
 }
 nav a:hover a {
 	color:#64C6DC;
-}	
+}
 #menuInt .active a {
 	color:#6BDEF9;
 	outline: 0;
-}		
-nav a, nav li {	
-	-webkit-transition: 	all .25s ease-in-out; 
+}
+nav a, nav li {
+	-webkit-transition: 	all .25s ease-in-out;
 	-moz-transition: 		all .25s ease-in-out;
 	-o-transition: 			all .25s ease-in-out;
 	transition: 			all .25s ease-in-out;
 }
-#menuInt { 
-	height: 32px; 
+#menuInt {
+	height: 32px;
 	padding: 12px 0; margin: 0 auto;
 	background: linear-gradient(to bottom, #313131 0%,#191919 100%);
 	border-radius: 80px;
 	width: 52%;
 }
 #menuInt li {
-	list-style: none; float: left; 
+	list-style: none; float: left;
 	margin: 0 5px;
 }
 #menuInt li:first-child {
@@ -225,9 +225,9 @@ nav a, nav li {
 }
 #menuInt li a:hover, #menuInt li a:focus {
 		color: #6BDEF9;
-}		
+}
 #menuInt li a { outline: none; }
-/* ============================================================================= 
+/* =============================================================================
 4. Mobile Dropdown Menu
  ============================================================================= */
 #dd_menu {
@@ -239,8 +239,8 @@ nav a, nav li {
 	outline: none;
 }
 
-/* ============================================================================= 
-5. Blocks 
+/* =============================================================================
+5. Blocks
 ============================================================================= */
 .block {
 	border-top-width: 2px;
@@ -260,8 +260,8 @@ nav a, nav li {
 	border-radius: 30px 30px 30px 30px;
 }
 
-/* ============================================================================= 
-6.Home Panel 
+/* =============================================================================
+6.Home Panel
 ============================================================================= */
 .My_name {
 	text-align:center;
@@ -336,39 +336,39 @@ nav a, nav li {
 	transform: rotate(360deg);
 }
 
-/* personal info */   
-ul.personal-info { 
-    margin:10px 0 0 0; 
-	padding-left:0; 
-	list-style:none; 
+/* personal info */
+ul.personal-info {
+    margin:10px 0 0 0;
+	padding-left:0;
+	list-style:none;
 }
-ul.personal-info li { 
-    margin-bottom:12px; 
+ul.personal-info li {
+    margin-bottom:12px;
 }
 ul.personal-info .title {
 	display:inline-block;
-	font-family:'Oswald', Arial, Helvetica, sans-serif;	
+	font-family:'Oswald', Arial, Helvetica, sans-serif;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #64C6DC;	
+	border-color: #64C6DC;
 	border-radius: 22px 22px 22px 22px;
-	color:#333; 
-	padding:3px 10px; 
-	position:relative; 
-	font-size:13px;  
+	color:#333;
+	padding:3px 10px;
+	position:relative;
+	font-size:13px;
 }
-ul.personal-info .value { 
-    margin-left:10px; 
+ul.personal-info .value {
+    margin-left:10px;
 }
 ul.personal-info .available { /* Font Color For Freelance Status = Available */
-    color:#6f803b; 
+    color:#6f803b;
 }
 ul.personal-info .not_available { /* Font Color For Freelance Status = Not Available */
-    color:#803b3b; 
+    color:#803b3b;
 }
 
-/* ============================================================================= 
-7. Resume Panel 
+/* =============================================================================
+7. Resume Panel
 ============================================================================= */
 .detailsCol {
     width: 100%;
@@ -416,22 +416,22 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 .skillsInfo {
 	margin:10px 0 0px 0;
 }
-.skillsInfo em { 
-	position:relative; 
+.skillsInfo em {
+	position:relative;
 	margin-bottom: 5px;
 	font-size:13px;
 	/*color:#292929;*/
 	font-family:"Oswald", Arial, Helvetica, sans-serif;
 	font-weight:400;
 	font-style:normal;
-	/* border-bottom: solid 3px #64C6DC; */  
+	/* border-bottom: solid 3px #64C6DC; */
 	/* width: 40%; */  display: block;
 	position: relative;
 	padding-left: 12px;
 }
 .skillsInfo em:before {
     position: absolute;
-	
+
     content: '';
     background: #64C6DC;
     left: 0;
@@ -452,7 +452,7 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 	-webkit-border-radius:8px;
 	border-radius:8px;
 	border-style:solid;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 }
 /*Skill 1*/
 .skill-1 {
@@ -515,8 +515,8 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 	padding:0 -1px 0 1px;
 }
 
-/* ============================================================================= 
-8.Services Panel 
+/* =============================================================================
+8.Services Panel
 ============================================================================= */
 .services {
 	margin-top:30px;
@@ -539,8 +539,8 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 	transform: rotate(720deg);
 }
 
-/* ============================================================================= 
-9. Portfolio Panel 
+/* =============================================================================
+9. Portfolio Panel
 ============================================================================= */
 .portfolio {
 	width:92%;
@@ -550,25 +550,25 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 	overflow: hidden;
 }
 /* Portfolio Items */
-.portfolio li { 
-    list-style:none; 
-	float: left;  
-	margin-bottom: 10px; 
+.portfolio li {
+    list-style:none;
+	float: left;
+	margin-bottom: 10px;
 }
-.portfolio a { 
-    display: block; 
-	text-decoration: none; 
+.portfolio a {
+    display: block;
+	text-decoration: none;
 }
-.portfolio h3 { 
-    color:#64C6DC; 
+.portfolio h3 {
+    color:#64C6DC;
     text-transform: uppercase;
     text-align: center;
 }
-.portfolio img {  
+.portfolio img {
     vertical-align: bottom;
-	width: 100%; 
+	width: 100%;
 	padding:0;
-	margin:0; 
+	margin:0;
 }
 /* Portfolio Filter */
 ul.filter {
@@ -596,9 +596,9 @@ ul.filter li a {
        -moz-transition: all 80ms ease-in ; /* property duration timing-function delay */
           transition: all 80ms ease-in ; /* property duration timing-function delay */
 }
-.filter a:hover { 
+.filter a:hover {
     color:#FFF;
-	background: #64C6DC; 
+	background: #64C6DC;
 }
 .filter .current a {
 	color:#FFF;
@@ -632,11 +632,11 @@ ul.filter li a {
 	top: 0;
 	z-index: 1;
 }
-.rollover:hover .back, 
+.rollover:hover .back,
 .rollover:focus .back {
     z-index: 2;
 }
-.rollover:hover .front, 
+.rollover:hover .front,
 .rollover:focus .front {
     z-index: 1;
 }
@@ -656,7 +656,7 @@ ul.filter li a {
        -o-transition: 1s;
           transition: 1s;
 }
-.fade .rollover:hover .front, 
+.fade .rollover:hover .front,
 .fade .rollover:focus .front {
     opacity: 0;
 	-webkit-transform: translate3d(0,0,1px);
@@ -665,7 +665,7 @@ ul.filter li a {
        -o-transform: translate3d(0,0,1px);
           transform: translate3d(0,0,1px);
 }
-.fade .rollover:hover .back, 
+.fade .rollover:hover .back,
 .fade .rollover:focus .back {
     opacity: 1;
 }
@@ -702,7 +702,7 @@ ul.filter li a {
        -o-transform: rotateY(180deg) translate3d(0,0,0);
           transform: rotateY(180deg) translate3d(0,0,0);
 }
-.flip .rollover:hover .cube, 
+.flip .rollover:hover .cube,
 .flip .rollover:focus .cube {
     -webkit-transform: rotateY(180deg);
      -moz-transform: rotateY(180deg);
@@ -730,11 +730,11 @@ ul.filter li a {
 	margin: auto;
 	position: absolute;
 	right: 0;
-	top: 40%;
+	top: 15%;
 }
 
-/* ============================================================================= 
-10. Contact Panel 
+/* =============================================================================
+10. Contact Panel
 ============================================================================= */
 #contactform{
 	margin-top:-7px;
@@ -744,16 +744,16 @@ ul.filter li a {
 	padding:0;
 	margin:0;
 	bottom:5px;
-	background: none; 
+	background: none;
 	border: 0px;
-}	
+}
 label	{float:left;width:100%;padding:0 0 2px;}
-input[type="text"] 
+input[type="text"]
 textarea	{width:100%;}
 input[type="submit"]	{padding:0;width:100%;margin:5px 0 0;}
 
 /*FORM ELEMENTS*/
-label { 
+label {
     cursor: pointer;
 	margin-top:7px;
 	font-family:'Oswald', Arial, Helvetica, sans-serif;
@@ -762,17 +762,17 @@ label {
 	color: #292929;
 }
 input,textarea {outline: none;}
-button, input, select, textarea { 
-    margin: 0; 
-	vertical-align: baseline; 
-	*vertical-align: middle; 
+button, input, select, textarea {
+    margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
 }
-button, input[type="button"], input[type="reset"], input[type="submit"] { 
-    cursor: pointer; 
-	-webkit-appearance: button; 
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+	-webkit-appearance: button;
 }
-input[type="checkbox"], input[type="radio"] { 
-    box-sizing: border-box; 
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
 }
 input[type="text"] {
 	border:2px solid #cfd0ca;
@@ -788,7 +788,7 @@ textarea	{
 	color:#999;
 	padding:3px 10px;
 	width:100%;
-	-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;  
+	-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;
 	resize: none;
 }
 input[type="text"]:focus,
@@ -858,12 +858,12 @@ input[type="submit"]:hover 		{
     max-width: 100%;
 }
 
-/* ============================================================================= 
-11. Media Queries 
+/* =============================================================================
+11. Media Queries
 ============================================================================= */
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-	.step {	
+	.step {
 	  width: 960px;
       height: 470px;
     }
@@ -871,7 +871,7 @@ input[type="submit"]:hover 		{
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-	.step {	
+	.step {
 	width: 768px;
     height: 470px;
     }
@@ -879,7 +879,7 @@ input[type="submit"]:hover 		{
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-	.step {	
+	.step {
 	width: 300px;
     height: 470px;
     }
@@ -924,15 +924,15 @@ input[type="submit"]:hover 		{
 	font-weight: 200;
 	color:#555556;
     }
-    .portfolio img {  
-    margin-bottom:10px; 
+    .portfolio img {
+    margin-bottom:10px;
     }
 	.portfolio {
 	width:100%;
 	padding:0;
 	margin:0 0 0 0;
     }
-    .jspDrag {   
+    .jspDrag {
     width:6px;
 	height:6px;
 	background:#999999;
@@ -948,10 +948,10 @@ input[type="submit"]:hover 		{
 	display:none;
     }
 }
-		
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.step {	
+	.step {
 	width: 420px;
     height: 470px;
     }
