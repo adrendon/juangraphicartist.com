@@ -1,1029 +1,1103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Juan Guillermo Cano - Graphic Artist/Designer</title>
-        <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no" />
-        <meta name="description" content="Motion - Responsive vCard Template" />
-        <meta name="keywords" content="jmpress, slideshow, container, plugin, jquery, css3" />
-        <meta name="author" content="lmtheme" />
-        <link rel="shortcut icon" href="http://lmtheme.ru/demo/motion/favicon.ico">
-        <link rel="stylesheet" href="css/skeleton.css">
-        <link rel="stylesheet" href="css/jquery.jscrollpane.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/jquery.qtip.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-
-        <!-- jQuery -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
-        <!-- jmpress plugin -->
-        <script src="js/jms.js" type="text/javascript"></script>
-        <!-- extends the jmpress plugin -->
-        <script src="js/jmpress.js" type="text/javascript"></script>
-        <!-- jQuery Easing 1.3 -->
-        <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-        <!-- Detect Mobile Browser -->
-        <script src="js/detectmobilebrowser.js" type="text/javascript"></script>
-        <!-- mousewheel -->
-        <script src="js/mousewheel.js" type="text/javascript" ></script>
-        <!-- jScrollpane -->
-        <script src="js/jquery.jscrollpane.min.js" type="text/javascript"></script>
-        <!-- Quicksand -->
-        <script src="js/jquery.quicksand.js" type="text/javascript"></script>
-        <!-- prettyPhoto -->
-        <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
-        <!-- qTip -->
-        <script src="js/jquery.qtip.min.js" type="text/javascript"></script>
-        <!-- jQuery mobile gmaps -->
-        <script src="js/jquery.mobilegmap.min.js" type="text/javascript"></script>
-        <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-        <!-- Contact Form -->
-        <script src="js/contact_form.js" type="text/javascript"></script>
-        <!-- Settings -->
-        <script src="js/main.js" type="text/javascript"></script>
-        <!-- Modernizr -->
-        <script src="js/modernizr.custom.48780.js" type="text/javascript"></script>
-
-        <!--[if lt IE 7]>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Juan Guillermo Cano - Graphic Artist/Designer</title>
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no"/>
+<meta name="description" content="Motion - Responsive vCard Template"/>
+<meta name="keywords" content="jmpress, slideshow, container, plugin, jquery, css3"/>
+<meta name="author" content="lmtheme"/>
+<link rel="shortcut icon" href="http://lmtheme.ru/demo/motion/favicon.ico">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/jquery.jscrollpane.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/jquery.qtip.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+<!-- jmpress plugin -->
+<script src="js/jms.js" type="text/javascript"></script>
+<!-- extends the jmpress plugin -->
+<script src="js/jmpress.js" type="text/javascript"></script>
+<!-- jQuery Easing 1.3 -->
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<!-- Detect Mobile Browser -->
+<script src="js/detectmobilebrowser.js" type="text/javascript"></script>
+<!-- mousewheel -->
+<script src="js/mousewheel.js" type="text/javascript"></script>
+<!-- jScrollpane -->
+<script src="js/jquery.jscrollpane.min.js" type="text/javascript"></script>
+<!-- Quicksand -->
+<script src="js/jquery.quicksand.js" type="text/javascript"></script>
+<!-- prettyPhoto -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<!-- qTip -->
+<script src="js/jquery.qtip.min.js" type="text/javascript"></script>
+<!-- jQuery mobile gmaps -->
+<script src="js/jquery.mobilegmap.min.js" type="text/javascript"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+<!-- Contact Form -->
+<script src="js/contact_form.js" type="text/javascript"></script>
+<!-- Settings -->
+<script src="js/main.js" type="text/javascript"></script>
+<!-- Modernizr -->
+<script src="js/modernizr.custom.48780.js" type="text/javascript"></script>
+<!--[if lt IE 7]>
         <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
         <![endif]-->
-        <!--[if lt IE 8]>
+<!--[if lt IE 8]>
         <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
         <![endif]-->
-        <!--[if lt IE 9]>
+<!--[if lt IE 9]>
         <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
         <![endif]-->
-
-        <noscript>
-			<style>
-			.step {
-				position: relative;
-			}
-			.step:not(.active) {
-				opacity: 1;
-				filter: alpha(opacity=99);
-				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
-			}
-			.step:not(.active) a.jms-link{
-				opacity: 1;
-				margin-top: 40px;
-			}
-			</style>
-        </noscript>
-    </head>
-    <body>
-
-        <div class="container">
-	    <header>
-               <div class="sixteen columns">
-                   <div class="My_name">
-                       <!-- <img src="images/logo.png" alt="logo"> -->
-                       <h1>Juan Guillermo Cano</h1>
-                       <h3>Graphic Artist/Designer</h3>
-                   </div>
-               </div>
-
-	       <!-- Primary Navigation -->
-	       <nav id="menu" class="sixteen columns" >
-<!-- 		   <ul id="nav">
-		      <li class="active">
-			 <a href="#home">Home</a>
-		      </li>
-		      <li>
-		         <a href="#resume">Resume</a>
-		      </li>
-		      <li>
-		         <a href="#services">Services</a>
-		      </li>
-		      <li>
-			 <a href="#portfolio">Portfolio</a>
-		      </li>
-		      <li>
-			 <a href="#contact">Contact</a>
-		      </li>
-		    </ul> -->
-
-
-        <ul id="menuInt">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#animation">Animation</a></li>
-          <li><a href="#video">Video</a></li>
-          <li><a href="#design">Design</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-
-		    <!-- Dropdown Menu For Mobile Device -->
-		    <select id="dd_menu">
-		      <option value="#home">Home</option>
-		      <option value="#animation">Animation</option>
-		      <option value="#video">Video</option>
-		      <option value="#design">Design</option>
-		      <option value="#contact">Contact</option>
-		    </select>
-		    <!-- Dropdown Menu End -->
-	        </nav><!-- Primary Navigation End -->
-	    </header> <!-- End Part of Title and Menu Navigation -->
-
-            <section id="jms-slideshow" class="jms-slideshow sixteen columns">
-
-                <!-- Home Subpage -->
-                <div id="home" class="step" data-x="6000" data-y="1600" data-rotate="0" data-scale="15">
-		    <div id="jms-content">
-                        <div class="five columns">
-                            <div class="block">
-                                <div class="portrait">
-                                    <img src="images/my_photo_1.jpg" alt=""/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="six columns">
-                            <div class="block">
-                                <div class="general_info">
-                                    <h3>Productor audiovisual especializado en diseño gráfico, animación y composición digital</h3>
-                                    <p>Desde el año 2005 ha tenido la experiencia de trabajar en varios proyectos que le han permitido crecer y adquirir conocimientos basados en motion graphics y VFX.
-En su trayecto varios de estos proyectos han tenido reconocimiento a nivel internacional, algunos de ellos ganadores de premios y convocatorias, otros para destacados canales de televisión y sitios web.
-De igual manera se ha desempeñado como músico y líder, varios de sus proyectos los ha realizado para la banda en la que actualmente trabaja llamada NO RAZA.</p>
-                                </div>
-
-                                <div class="social_icons">
-                                    <h3>Follow Me on</h3>
-                                    <ul class="social">
-                                      <li><a class="tip" href="https://www.youtube.com/user/GUIRU18/videos" target="_blank" title="Youtube"><img src="images/social/youtube.png" alt="" /></a></li>
-                                      <li><a class="tip" href="https://www.facebook.com/juan.g.cano.71" target="_blank" title="Facebook"><img src="images/social/facebook.png" alt="" /></a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="five columns">
-                          <div class="block end">
-                                <!-- personal info -->
-                                <div class="general_info">
-<div class="title">
-                              <h2>Services</h2>
-                            </div>
-                            <div class="skillsInfo">
-                              <em>MOTION GRAPHICS</em>
-                              <em>VFX</em>
-                              <em>DIGITAL COMPOSITION</em>
-                              <em>GRAPHIC DESIGN</em>
-                              <em>EDITION</em>
-                              <em>ILLUSTRATION</em>
-                            </div>
-                                </div>
-                          </div>
-                        </div>
-		            </div>
-		</div>
-                <!-- End Home Subpage -->
-
-                <!-- Resume Subpage -->
-		<div id="animation" class="step" data-x="18000" data-y="2800" data-rotate="-30" data-scale="5">
-		    <div id="jms-content2">
-<div class="sixteen columns">
-                            <div class="block2">
-                          <!-- Portfolio Items -->
-                          <ul class="portfolio group">
-
-                                   <!-- Portolio Item 1 -->
-                                   <li class="item three columns omega" data-id="id-1">
-                                      <a href="http://www.youtube.com/watch?v=qDZ9rtKgpz8" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-                                                <div class="cube">
-
-                                                    <!-- Portfolio Item 1 Image -->
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/qDZ9rtKgpz8/0.jpg" alt=""/>
-                                                    </figure><!--front-->
-                                                    <!-- End Portfolio Item 1 Image -->
-
-                                                    <!-- Back Side. Portfolio Item 1 Description -->
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Propiedad pública</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-                                                    <!-- End Back Side. Portfolio Item 1 Description -->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                                   </li>
-                                   <!-- End Portfolio Item 1 -->
-
-                                   <!-- Portfolio Item 2 -->
-                       <li class="item three columns omega" data-id="id-2">
-                                      <a href="https://www.youtube.com/watch?v=zO4K6oI1mhg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-                                                <div class="cube">
-
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/zO4K6oI1mhg/0.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Zona zap</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 2 -->
-
-                                   <!-- Portfolio Item 3 -->
-                       <li class="item three columns omega" data-id="id-3">
-                                      <a href="http://www.youtube.com/watch?v=Wtbh7wzH89s" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/Wtbh7wzH89s/0.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Noticias H</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 3 -->
-
-                                   <!-- Portfolio Item 4 -->
-                       <li class="item three columns omega" data-id="id-4">
-                                      <a href="http://www.youtube.com/watch?v=I62vkdOQ7r8" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/I62vkdOQ7r8/0.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Pragma</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 4 -->
-
-                                   <!-- Portfolio Item 5 -->
-                       <li class="item three columns omega" data-id="id-5">
-                                      <a href="http://www.youtube.com/watch?v=mrfBBaYcGtQ" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/mrfBBaYcGtQ/0.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Utopía y fantasía</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 5 -->
-
-                                   <!-- Portfolio Item 6 -->
-                       <li class="item three columns omega" data-id="id-6">
-                                      <a href="http://www.youtube.com/watch?v=qYHa_qUfjm4" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/qYHa_qUfjm4/0.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Start Up</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 6 -->
-
-                                   <!-- Portfolio Item 7 -->
-                       <li class="item three columns omega" data-id="id-7">
-                                      <a href="https://www.youtube.com/watch?v=VTmKcw-uuqk" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/VTmKcw-uuqk/0.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Última Vocal</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 7 -->
-
-                                   <!-- Portfolio Item 8 -->
-                       <li class="item three columns omega" data-id="id-8">
-                                      <a href="https://www.youtube.com/watch?v=9g_b5FgsNMI" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/9g_b5FgsNMI/0.jpg" alt="Animación logo UdeA TV 1803"/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Animación logo UdeA TV 1803</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 8 -->
-                                   <!-- Portfolio Item 9 -->
-                       <li class="item three columns omega" data-id="id-9">
-                                      <a href="https://www.youtube.com/watch?v=thTJigC6sSg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/thTJigC6sSg/0.jpg" alt="Animación logo UdeA TV"/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Animación logo UdeA TV</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 9 -->
-
-                                   <!-- Portfolio Item 10 -->
-                       <li class="item three columns omega" data-id="id-10">
-                                      <a href="https://www.youtube.com/watch?v=xonUhG8DtRA" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/xonUhG8DtRA/0.jpg" alt="Promo V Congreso Internacional de Literatura 'Medellín Negro'"/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Promo V Congreso Internacional de Literatura "Medellín Negro"</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 10 -->
-
-                          </ul>
-        <!-- End Portfolio Items -->
-                            </div>
-                        </div>
+<noscript>
+<style>
+            .step {
+                position: relative;
+            }
+            .step:not(.active) {
+                opacity: 1;
+                filter: alpha(opacity=99);
+                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+            }
+            .step:not(.active) a.jms-link{
+                opacity: 1;
+                margin-top: 40px;
+            }
+</style>
+</noscript>
+</head>
+<body>
+<div class="container">
+  <header>
+  <div class="sixteen columns">
+    <div class="My_name">
+      <h1>Juan Guillermo Cano</h1>
+      <h3>Graphic Artist/Designer</h3>
+    </div>
+  </div>
+  <!-- Primary Navigation -->
+  <nav id="menu" class="sixteen columns">
+  <ul id="menuInt">
+    <li class="active"><a href="#home">Home</a></li>
+    <li><a href="#animation">Animation</a></li>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <!-- Dropdown Menu For Mobile Device -->
+  <select id="dd_menu">
+    <option value="#home">Home</option>
+    <option value="#animation">Animation</option>
+    <option value="#video">Video</option>
+    <option value="#design">Design</option>
+    <option value="#contact">Contact</option>
+  </select>
+  <!-- Dropdown Menu End -->
+  </nav>
+  <!-- Primary Navigation End -->
+  </header>
+  <!-- End Part of Title and Menu Navigation -->
+  <section id="jms-slideshow" class="jms-slideshow sixteen columns">
+  <!-- Home Subpage -->
+  <div id="home" class="step" data-x="6000" data-y="1600" data-rotate="0" data-scale="15">
+    <div id="jms-content">
+      <div class="five columns">
+        <div class="block">
+          <div class="portrait">
+            <img src="images/my_photo_1.jpg" alt=""/>
+          </div>
         </div>
-		</div>
-                <!-- End Resume Subpage -->
-
-                <!-- Services Subpage -->
-	        <div id="video" class="step" data-x="22000" data-y="2800" data-rotate="30" data-scale="3">
-	            <div id="jms-content3">
-<div class="sixteen columns">
-                            <div class="block2">
-
-                          <!-- Portfolio Items -->
-                          <ul class="portfolio group">
-
-
-                                   <!-- Portolio Item 1 -->
-                                   <li class="item three columns omega" data-id="id-11">
-                                      <a href="http://www.youtube.com/watch?v=u5c-5BTj7oA" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-                                                <div class="cube">
-
-                                                    <!-- Portfolio Item 1 Image -->
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/u5c-5BTj7oA/0.jpg" alt="Evil´s Seed"/>
-                                                    </figure><!--front-->
-                                                    <!-- End Portfolio Item 1 Image -->
-
-                                                    <!-- Back Side. Portfolio Item 1 Description -->
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>NO RAZA - Evil´s Seed</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-                                                    <!-- End Back Side. Portfolio Item 1 Description -->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                                   </li>
-                                   <!-- End Portfolio Item 1 -->
-
-                                   <!-- Portfolio Item 2 -->
-                       <li class="item three columns omega" data-id="id-12">
-                                      <a href="https://www.youtube.com/watch?v=nuOcNGEFUFo" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-                                                <div class="cube">
-
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/nuOcNGEFUFo/0.jpg" alt="Lloverá Sangre en el Barro"/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>NO RAZA - Lloverá Sangre en el Barro</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 2 -->
-
-                                   <!-- Portfolio Item 3 -->
-                       <li class="item three columns omega" data-id="id-13">
-                                      <a href="https://www.youtube.com/watch?v=i9TS3qvMDAo" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/i9TS3qvMDAo/0.jpg" alt="NO RAZA - Live "/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>NO RAZA - Live </h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 3 -->
-
-                                   <!-- Portfolio Item 4 -->
-                       <li class="item three columns omega" data-id="id-14">
-                                      <a href="https://www.youtube.com/watch?v=ayxfC6JvQI0" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/ayxfC6JvQI0/0.jpg" alt="NO RAZA - Rios de Sangre"/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>NO RAZA - Ríos de Sangre</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 5 -->
-
-                                   <li class="item three columns omega" data-id="id-15">
-                                      <a href="https://www.youtube.com/watch?v=0WEdZhIlam0" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="http://img.youtube.com/vi/0WEdZhIlam0/0.jpg" alt="NO RAZA - Corderos al Abismo"/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>NO RAZA - Corderos al Abismo</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 5 -->
-                          </ul>
-        <!-- End Portfolio Items -->
-                            </div>
-                        </div>
+      </div>
+      <div class="six columns">
+        <div class="block">
+          <div class="general_info">
+            <h3>Productor audiovisual especializado en diseño gráfico, animación y composición digital</h3>
+            <p>
+              Desde el año 2005 ha tenido la experiencia de trabajar en varios proyectos que le han permitido crecer y adquirir conocimientos basados en motion graphics y VFX. En su trayecto varios de estos proyectos han tenido reconocimiento a nivel internacional, algunos de ellos ganadores de premios y convocatorias, otros para destacados canales de televisión y sitios web. De igual manera se ha desempeñado como músico y líder, varios de sus proyectos los ha realizado para la banda en la que actualmente trabaja llamada NO RAZA.
+            </p>
+          </div>
+          <div class="social_icons">
+            <h3>Follow Me on</h3>
+            <ul class="social">
+              <li><a class="tip" href="https://www.youtube.com/user/GUIRU18/videos" target="_blank" title="Youtube"><img src="images/social/youtube.png" alt=""/></a></li>
+              <li><a class="tip" href="https://www.facebook.com/juan.g.cano.71" target="_blank" title="Facebook"><img src="images/social/facebook.png" alt=""/></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="five columns">
+        <div class="block end">
+          <!-- personal info -->
+          <div class="general_info">
+            <div class="title">
+              <h2>Services</h2>
+            </div>
+            <div class="skillsInfo">
+              <em>MOTION GRAPHICS</em>
+              <em>VFX</em>
+              <em>DIGITAL COMPOSITION</em>
+              <em>GRAPHIC DESIGN</em>
+              <em>EDITION</em>
+              <em>ILLUSTRATION</em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Home Subpage -->
+  <!-- Resume Subpage -->
+  <div id="animation" class="step" data-x="18000" data-y="2800" data-rotate="-30" data-scale="5">
+    <div id="jms-content2">
+      <div class="sixteen columns">
+        <div class="block2">
+          <!-- Portfolio Items -->
+          <ul class="portfolio group">
+            <!-- Portolio Item 1 -->
+            <li class="item three columns omega" data-id="id-1">
+            <a href="http://www.youtube.com/watch?v=qDZ9rtKgpz8" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 1 Image -->
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/qDZ9rtKgpz8/0.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 1 Image -->
+                  <!-- Back Side. Portfolio Item 1 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Propiedad pública</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 1 Description -->
+                </div>
+                <!--cube-->
               </div>
-		</div>
-                <!-- End Services Subpage -->
-
-                <!-- Portfolio Subpage -->
-		<div id="design" class="step" data-x="26000" data-y="2800" data-rotate="-30" data-scale="1">
-                    <div id="jms-content4">
-<div class="sixteen columns">
-                            <div class="block2">
-
-        <!-- Portfolio Filter -->
-<!--                                 <ul class="filter">
-                                   <li class="current all"><a href="#">All</a></li>
-                                   <li class="webdesign"><a href="#">Web Design</a></li>
-                                   <li class="webdevelopment"><a href="#">Web Development</a></li>
-                                </ul> -->
-                                <!-- End Portfolio Filter -->
-
-
-                          <!-- Portfolio Items -->
-                          <ul class="portfolio group">
-
-
-                                   <!-- Portolio Item 1 -->
-                                   <li class="item three columns omega" data-id="id-16" data-type="webdevelopment" >
-                                      <a href="images/portfolio_images/big/image_1.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-                                                <div class="cube">
-
-                                                    <!-- Portfolio Item 1 Image -->
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_1.jpg" alt=""/>
-                                                    </figure><!--front-->
-                                                    <!-- End Portfolio Item 1 Image -->
-
-                                                    <!-- Back Side. Portfolio Item 1 Description -->
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 001</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-                                                    <!-- End Back Side. Portfolio Item 1 Description -->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                                   </li>
-                                   <!-- End Portfolio Item 1 -->
-
-                                   <!-- Portfolio Item 2 -->
-                       <li class="item three columns omega" data-id="id-17" data-type="webdevelopment">
-                                      <a href="images/portfolio_images/big/image_2.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-                                                <div class="cube">
-
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_2.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 002</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 2 -->
-
-                                   <!-- Portfolio Item 3 -->
-                       <li class="item three columns omega" data-id="id-18" data-type="webdevelopment">
-                                      <a href="images/portfolio_images/big/image_3.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_3.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 003</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 3 -->
-
-                                   <!-- Portfolio Item 4 -->
-                       <li class="item three columns omega" data-id="id-19" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_4.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_4.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 004</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 4 -->
-
-                                   <!-- Portfolio Item 5 -->
-                       <li class="item three columns omega" data-id="id-20" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_5.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_5.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 005</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 5 -->
-
-
-                                   <!-- Portfolio Item 6 -->
-                       <li class="item three columns omega" data-id="id-21" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_6.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_6.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 006</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 6 -->
-
-
-                                   <!-- Portfolio Item 7 -->
-                       <li class="item three columns omega" data-id="id-22" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_7.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_7.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 007</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 7 -->
-
-
-                                   <!-- Portfolio Item 8 -->
-                       <li class="item three columns omega" data-id="id-23" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_8.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_8.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 008</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 8 -->
-
-
-                                   <!-- Portfolio Item 9 -->
-                       <li class="item three columns omega" data-id="id-24" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_9.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_9.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 009</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 9 -->
-
-
-                                   <!-- Portfolio Item 10 -->
-                       <li class="item three columns omega" data-id="id-25" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_10.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_10.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 0010</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 10 -->
-
-
-                                   <!-- Portfolio Item 11 -->
-                       <li class="item three columns omega" data-id="id-26" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_11.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_11.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 0011</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 11 -->
-
-
-                                   <!-- Portfolio Item 12 -->
-                       <li class="item three columns omega" data-id="id-27" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_12.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_12.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 0012</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 12 -->
-
-
-                                   <!-- Portfolio Item 13 -->
-                       <li class="item three columns omega" data-id="id-28" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_13.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_13.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 0013</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 5 -->
-
-
-                                   <!-- Portfolio Item 14 -->
-                       <li class="item three columns omega" data-id="id-29" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_14.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_14.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 0014</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 14 -->
-
-                                  <!-- Portfolio Item 15 -->
-                       <li class="item three columns omega" data-id="id-30" data-type="webdesign">
-                                      <a href="images/portfolio_images/big/image_15.jpg" data-rel="prettyPhoto[portfolio]">
-                                        <div class="flip box fade">
-                                            <div class="rollover">
-
-                                                <div class="cube">
-                                                    <figure class="front">
-                                                           <img src="images/portfolio_images/image_15.jpg" alt=""/>
-                                                    </figure><!--front-->
-
-                                                    <section class="back">
-                                                    <div class="back-wrap">
-                                                        <h3>Imágen 0015</h3>
-                                                    </div><!--back-wrap-->
-                                                    </section><!--back-->
-
-                                                </div><!--cube-->
-                                            </div><!--rollover-->
-                                        </div><!--flip-->
-                                      </a>
-                       </li>
-                                   <!-- End Portfolio Item 15 -->
-                          </ul>
-        <!-- End Portfolio Items -->
-                            </div>
-                        </div>
-                    </div>
-		</div>
-                <!-- End Portfolio Subpage -->
-
-                <!-- Contact Subpage -->
-		<div id="contact" class="step" data-x="30000" data-y="6500" data-rotate="30" data-scale="3">
-		    <div id="jms-content5">
-
-                        <div class="ten columns">
-                            <div class="block">
-
-                                <div class="title">
-                                    <h2>My Location on World Map</h2>
-                                </div>
-
-                                <div class="gmap" id="map" data-center="98 Norman Grove, London, United Kingdom" data-zoom="15"> <!-- data-center is address, change it to your address -->
-                                    <address>
-                                             <strong>98 Norman Grove</strong><br />
-                                             London, United Kingdom<br />
-                                    </address>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="six columns">
-                            <div class="block end">
-                                <div class="title">
-                                    <h2>Contact With Me</h2>
-                                </div>
-                                <div id="contact-wrapper">
-                                    <form id="contactform" action="javascript:alert('success!');">
-					 <fieldset class="info_fieldset">
-					          <div id="note"></div>
-                                         </fieldset>
-                                         <label>Name</label>
-					       <input class="textbox" type="text" name="name" value="" /><br />
-                                         <label>e-mail</label>
-					       <input class="textbox" type="text" name="email" value="" /><br />
-                                         <label>Message</label>
-					       <textarea class="textbox" name="message" rows="5" cols="25" ></textarea><br />
-					       <input class="button" type="submit" value="Send Message" />
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-	            </div>
-	        </div>
-                <!-- End Contact Subpage -->
-
-            </section>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 1 -->
+            <!-- Portfolio Item 2 -->
+            <li class="item three columns omega" data-id="id-2">
+            <a href="https://www.youtube.com/watch?v=zO4K6oI1mhg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/zO4K6oI1mhg/0.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Zona zap</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 2 -->
+            <!-- Portfolio Item 3 -->
+            <li class="item three columns omega" data-id="id-3">
+            <a href="http://www.youtube.com/watch?v=Wtbh7wzH89s" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/Wtbh7wzH89s/0.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Noticias H</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 3 -->
+            <!-- Portfolio Item 4 -->
+            <li class="item three columns omega" data-id="id-4">
+            <a href="http://www.youtube.com/watch?v=I62vkdOQ7r8" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/I62vkdOQ7r8/0.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Pragma</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 4 -->
+            <!-- Portfolio Item 5 -->
+            <li class="item three columns omega" data-id="id-5">
+            <a href="http://www.youtube.com/watch?v=mrfBBaYcGtQ" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/mrfBBaYcGtQ/0.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Utopía y fantasía</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 5 -->
+            <!-- Portfolio Item 6 -->
+            <li class="item three columns omega" data-id="id-6">
+            <a href="http://www.youtube.com/watch?v=qYHa_qUfjm4" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/qYHa_qUfjm4/0.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Start Up</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 6 -->
+            <!-- Portfolio Item 7 -->
+            <li class="item three columns omega" data-id="id-7">
+            <a href="https://www.youtube.com/watch?v=VTmKcw-uuqk" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/VTmKcw-uuqk/0.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Última Vocal</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 7 -->
+            <!-- Portfolio Item 8 -->
+            <li class="item three columns omega" data-id="id-8">
+            <a href="https://www.youtube.com/watch?v=9g_b5FgsNMI" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/9g_b5FgsNMI/0.jpg" alt="Animación logo UdeA TV 1803"/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Animación logo UdeA TV 1803</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 8 -->
+            <!-- Portfolio Item 9 -->
+            <li class="item three columns omega" data-id="id-9">
+            <a href="https://www.youtube.com/watch?v=thTJigC6sSg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/thTJigC6sSg/0.jpg" alt="Animación logo UdeA TV"/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Animación logo UdeA TV</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 9 -->
+            <!-- Portfolio Item 10 -->
+            <li class="item three columns omega" data-id="id-10">
+            <a href="https://www.youtube.com/watch?v=xonUhG8DtRA" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/xonUhG8DtRA/0.jpg" alt="Promo V Congreso Internacional de Literatura 'Medellín Negro'"/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Promo V Congreso Internacional de Literatura "Medellín Negro"</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 10 -->
+          </ul>
+          <!-- End Portfolio Items -->
         </div>
-    </body>
+      </div>
+    </div>
+  </div>
+  <!-- End Resume Subpage -->
+  <!-- Services Subpage -->
+  <div id="video" class="step" data-x="22000" data-y="2800" data-rotate="30" data-scale="3">
+    <div id="jms-content3">
+      <div class="sixteen columns">
+        <div class="block2">
+          <!-- Portfolio Items -->
+          <ul class="portfolio group">
+            <!-- Portolio Item 11 -->
+            <li class="item three columns omega" data-id="id-11">
+            <a href="http://www.youtube.com/watch?v=u5c-5BTj7oA" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 11 Image -->
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/u5c-5BTj7oA/0.jpg" alt="Evil´s Seed"/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 11 Image -->
+                  <!-- Back Side. Portfolio Item 11 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>NO RAZA - Evil´s Seed</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 11 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 1 -->
+            <!-- Portfolio Item 12 -->
+            <li class="item three columns omega" data-id="id-12">
+            <a href="https://www.youtube.com/watch?v=nuOcNGEFUFo" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/nuOcNGEFUFo/0.jpg" alt="Lloverá Sangre en el Barro"/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>NO RAZA - Lloverá Sangre en el Barro</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 12 -->
+            <!-- Portfolio Item 13 -->
+            <li class="item three columns omega" data-id="id-13">
+            <a href="https://www.youtube.com/watch?v=i9TS3qvMDAo" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/i9TS3qvMDAo/0.jpg" alt="NO RAZA - Live "/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>NO RAZA - Live </h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 13 -->
+            <!-- Portfolio Item 14 -->
+            <li class="item three columns omega" data-id="id-14">
+            <a href="https://www.youtube.com/watch?v=ayxfC6JvQI0" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/ayxfC6JvQI0/0.jpg" alt="NO RAZA - Rios de Sangre"/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>NO RAZA - Ríos de Sangre</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 14 -->
+            <!-- Portfolio Item 15 -->
+            <li class="item three columns omega" data-id="id-15">
+            <a href="https://www.youtube.com/watch?v=0WEdZhIlam0" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <figure class="front">
+                  <img src="http://img.youtube.com/vi/0WEdZhIlam0/0.jpg" alt="NO RAZA - Corderos al Abismo"/>
+                  </figure>
+                  <!--front-->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>NO RAZA - Corderos al Abismo</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 15 -->
+          </ul>
+          <!-- End Portfolio Items -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Services Subpage -->
+  <!-- Portfolio Subpage -->
+  <div id="design" class="step" data-x="26000" data-y="2800" data-rotate="-30" data-scale="1">
+    <div id="jms-content4">
+      <div class="sixteen columns">
+        <div class="block2">
+          <!-- Portfolio Filter -->
+          <!-- <ul class="filter">
+           <li class="current all"><a href="#">All</a></li>
+           <li class="webdesign"><a href="#">Web Design</a></li>
+           <li class="webdevelopment"><a href="#">Web Development</a></li>
+          </ul> -->
+          <!-- End Portfolio Filter -->
+          <h2 class="services">Design</h2>
+          <!-- Portfolio Items -->
+          <ul class="portfolio group">
+            <!-- Portolio Item 16 -->
+            <li class="item three columns omega" data-id="id-16" data-type="webdevelopment">
+            <a href="images/portfolio_images/1-design/big/image_1.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 16 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/1-design/image_1.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 16 Image -->
+                  <!-- Back Side. Portfolio Item 16 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Design</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 16 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 16 -->
+            <!-- Portolio Item 17 -->
+            <li class="item three columns omega" data-id="id-17" data-type="webdevelopment">
+            <a href="images/portfolio_images/1-design/big/image_2.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 17 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/1-design/image_2.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 17 Image -->
+                  <!-- Back Side. Portfolio Item 17 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Design</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 17 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 17 -->
+            <!-- Portolio Item 18 -->
+            <li class="item three columns omega" data-id="id-18" data-type="webdevelopment">
+            <a href="images/portfolio_images/1-design/big/image_3.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 18 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/1-design/image_3.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 18 Image -->
+                  <!-- Back Side. Portfolio Item 18 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Design</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 18 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 18 -->
+            <!-- Portolio Item 19 -->
+            <li class="item three columns omega" data-id="id-19" data-type="webdevelopment">
+            <a href="images/portfolio_images/1-design/big/image_4.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 19 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/1-design/image_4.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 19 Image -->
+                  <!-- Back Side. Portfolio Item 19 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Design</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 19 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 19 -->
+          </ul>
+          <h2>Illustration</h2>
+          <!-- Portfolio Items -->
+          <ul class="portfolio group">
+            <!-- Portolio Item 20 -->
+            <li class="item three columns omega" data-id="id-20" data-type="webdevelopment">
+            <a href="images/portfolio_images/2-illustration/big/image_1.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 20 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/2-illustration/image_1.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 20 Image -->
+                  <!-- Back Side. Portfolio Item 20 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Illustration</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 20 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 20 -->
+            <!-- Portolio Item 21 -->
+            <li class="item three columns omega" data-id="id-21" data-type="webdevelopment">
+            <a href="images/portfolio_images/2-illustration/big/image_2.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 21 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/2-illustration/image_2.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 21 Image -->
+                  <!-- Back Side. Portfolio Item 21 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Illustration</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 21 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 21 -->
+            <!-- Portolio Item 22 -->
+            <li class="item three columns omega" data-id="id-22" data-type="webdevelopment">
+            <a href="images/portfolio_images/2-illustration/big/image_3.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 22 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/2-illustration/image_3.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 22 Image -->
+                  <!-- Back Side. Portfolio Item 22 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Illustration</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 22 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 22 -->
+          </ul>
+          <h2>Logos</h2>
+          <!-- Portfolio Items -->
+          <ul class="portfolio group">
+            <!-- Portolio Item 23 -->
+            <li class="item three columns omega" data-id="id-23" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_1.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 23 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_1.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 23 Image -->
+                  <!-- Back Side. Portfolio Item 23 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 23 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 23 -->
+            <!-- Portolio Item 24 -->
+            <li class="item three columns omega" data-id="id-24" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_2.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 24 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_2.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 24 Image -->
+                  <!-- Back Side. Portfolio Item 24 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 24 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 24 -->
+            <!-- Portolio Item 25 -->
+            <li class="item three columns omega" data-id="id-25" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_3.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 25 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_3.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 25 Image -->
+                  <!-- Back Side. Portfolio Item 25 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 25 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 25 -->
+            <!-- Portolio Item 26 -->
+            <li class="item three columns omega" data-id="id-26" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_4.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 26 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_4.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 26 Image -->
+                  <!-- Back Side. Portfolio Item 26 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 26 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 26 -->
+            <!-- Portolio Item 27 -->
+            <li class="item three columns omega" data-id="id-27" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_5.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 27 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_5.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 27 Image -->
+                  <!-- Back Side. Portfolio Item 27 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 27 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 27 -->
+            <!-- Portolio Item 28 -->
+            <li class="item three columns omega" data-id="id-28" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_6.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 28 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_6.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 28 Image -->
+                  <!-- Back Side. Portfolio Item 28 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 28 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 28 -->
+            <!-- Portolio Item 29 -->
+            <li class="item three columns omega" data-id="id-29" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_7.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 29 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_7.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 29 Image -->
+                  <!-- Back Side. Portfolio Item 29 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 29 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 29 -->
+            <!-- Portolio Item 30 -->
+            <li class="item three columns omega" data-id="id-30" data-type="webdevelopment">
+            <a href="images/portfolio_images/3-logos/big/image_8.jpg" data-rel="prettyPhoto[portfolio]">
+            <div class="flip box fade">
+              <div class="rollover">
+                <div class="cube">
+                  <!-- Portfolio Item 30 Image -->
+                  <figure class="front">
+                  <img src="images/portfolio_images/3-logos/image_8.jpg" alt=""/>
+                  </figure>
+                  <!--front-->
+                  <!-- End Portfolio Item 30 Image -->
+                  <!-- Back Side. Portfolio Item 30 Description -->
+                  <section class="back">
+                  <div class="back-wrap">
+                    <h3>Logos</h3>
+                  </div>
+                  <!--back-wrap-->
+                  </section>
+                  <!--back-->
+                  <!-- End Back Side. Portfolio Item 30 Description -->
+                </div>
+                <!--cube-->
+              </div>
+              <!--rollover-->
+            </div>
+            <!--flip-->
+            </a>
+            </li>
+            <!-- End Portfolio Item 30 -->
+          </ul>
+          <!-- End Portfolio Items -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Portfolio Subpage -->
+  <!-- Contact Subpage -->
+  <div id="contact" class="step" data-x="30000" data-y="6500" data-rotate="30" data-scale="3">
+    <div id="jms-content5">
+      <div class="ten columns">
+        <div class="block">
+          <div class="title">
+            <h2>My Location on World Map</h2>
+          </div>
+          <div class="gmap" id="map" data-center="98 Norman Grove, London, United Kingdom" data-zoom="15">
+            <!-- data-center is address, change it to your address -->
+            <address>
+            <strong>98 Norman Grove</strong><br/>
+            London, United Kingdom<br/>
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="six columns">
+        <div class="block end">
+          <div class="title">
+            <h2>Contact With Me</h2>
+          </div>
+          <div id="contact-wrapper">
+            <form id="contactform" action="javascript:alert('success!');">
+              <fieldset class="info_fieldset">
+                <div id="note">
+                </div>
+              </fieldset>
+              <label>Name</label>
+              <input class="textbox" type="text" name="name" value=""/><br/>
+              <label>e-mail</label>
+              <input class="textbox" type="text" name="email" value=""/><br/>
+              <label>Message</label>
+              <textarea class="textbox" name="message" rows="5" cols="25"></textarea><br/>
+              <input class="button" type="submit" value="Send Message"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Subpage -->
+  </section>
+</div>
+</body>
 </html>
