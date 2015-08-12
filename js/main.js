@@ -5,17 +5,17 @@
 * Version: 1.0
 */
 
-jQuery(document).ready(function(){ 
+jQuery(document).ready(function(){
     // --------------------------------------------------------------------------
 	// Pages Changer ------------------------------------------------------------
 	// --------------------------------------------------------------------------
-	$(function() {			
+	$(function() {
 		    $( '#jms-slideshow' ).jmslideshow();
 	});
 
 	// Detect mobile devices. If mobile = true then animation mode = 2D mode
 	if(jQuery.browser.mobile) {
-		
+
 	$.JMSlideshow.defaults 		= {
 		// options for the jmpress plugin.
 		// you can add much more options here. Check http://shama.github.com/jmpress.js/
@@ -34,12 +34,12 @@ jQuery(document).ready(function(){
 		},
 		// slideshow on / off
 		autoplay	: false,
-    };		
+    };
 	}
 
     // --------------------------------------------------------------------------
 	// jScrollpane --------------------------------------------------------------
-	// --------------------------------------------------------------------------	
+	// --------------------------------------------------------------------------
 	$('#jms-content').jScrollPane({ autoReinitialise: true, hijackInternalLinks: true })
 	$('#jms-content2').jScrollPane({ autoReinitialise: true, hijackInternalLinks: true })
     $('#jms-content3').jScrollPane({ autoReinitialise: true, hijackInternalLinks: true })
@@ -54,7 +54,7 @@ jQuery(document).ready(function(){
     $('#menuInt li').removeClass();
     $(this).parent().addClass("active");
     });
-   
+
 
     // --------------------------------------------------------------------------
 	// building select nav for mobile width only --------------------------------
@@ -62,7 +62,7 @@ jQuery(document).ready(function(){
     $('#dd_menu').change(function() {
         window.location = $(this).val();
     });
-	
+
     // --------------------------------------------------------------------------
 	// Location Update --------------------------------
 	// --------------------------------------------------------------------------
@@ -77,12 +77,12 @@ jQuery(document).ready(function(){
 	// --------------------------------------------------------------------------
 	// Clone portfolio items to get a second collection for Quicksand plugin
 	var $portfolioClone = $(".portfolio").clone();
-	
+
 	// Attempt to call Quicksand on every click event handler
 	$(".filter a").click(function(e){
-		
-		$(".filter li").removeClass("current");	
-		
+
+		$(".filter li").removeClass("current");
+
 		// Get the class attribute value of the clicked link
 		var $filterClass = $(this).parent().attr("class");
 
@@ -91,20 +91,20 @@ jQuery(document).ready(function(){
 		} else {
 			var $filteredPortfolio = $portfolioClone.find("li[data-type~=" + $filterClass + "]");
 		}
-		
+
 		// Call quicksand
-		$(".portfolio").quicksand( $filteredPortfolio, { 
-			duration: 800, 
-			easing: 'easeInOutQuad' 
+		$(".portfolio").quicksand( $filteredPortfolio, {
+			duration: 800,
+			easing: 'easeInOutQuad'
 		}, function(){
-			
+
 			// Blur newly cloned portfolio items on mouse over and apply prettyPhoto
-			$(".portfolio a").hover( function(){ 
-				$(this).children("img").animate({ opacity: 0.75 }, "fast"); 
-			}, function(){ 
-				$(this).children("img").animate({ opacity: 1.0 }, "slow"); 
-			}); 
-			
+			$(".portfolio a").hover( function(){
+				$(this).children("img").animate({ opacity: 0.75 }, "fast");
+			}, function(){
+				$(this).children("img").animate({ opacity: 1.0 }, "slow");
+			});
+
 			$(".portfolio a[data-rel^='prettyPhoto']").prettyPhoto({
 		        social_tools:'',
 		        deeplinking:false,
@@ -118,8 +118,8 @@ jQuery(document).ready(function(){
 		// Prevent the browser jump to the link anchor
 		e.preventDefault();
 	})
-	
-	// --------------------------------------------------------------------------	
+
+	// --------------------------------------------------------------------------
 	// tooltips -----------------------------------------------------------------
 	// --------------------------------------------------------------------------
 	$('.tip[title]').qtip({
@@ -133,25 +133,25 @@ jQuery(document).ready(function(){
 		},
 		style: {
 			classes: 'ui-tooltip-tipsy ui-tooltip-shadow'
-		}		
+		}
 	});
-    
+
 	// --------------------------------------------------------------------------
 	// prettyPhoto --------------------------------------------------------------
-	// --------------------------------------------------------------------------	
+	// --------------------------------------------------------------------------
 	$("a.prettyPhoto").prettyPhoto({
 		social_tools:'',
 		deeplinking:false,
 		theme: 'light_square'
 	});
-	
-	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto(); 
+
+	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto();
 
     // --------------------------------------------------------------------------
 	// Google map container -----------------------------------------------------
-	// --------------------------------------------------------------------------	
+	// --------------------------------------------------------------------------
     $('.gmap').mobileGmap({
          deviceWidth: 480, // The select will be added for screensizes smaller than this
-    });	
-	
+    });
+
 });

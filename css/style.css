@@ -88,7 +88,7 @@ p{
 .jms-slideshow {
 	position: relative;
 	width: 100%;
-	height: 470px;
+	height: 800px;
 }
 .jms-wrapper {
 	width: 100%;
@@ -97,7 +97,7 @@ p{
 }
 .step {
 	width: 960px;
-    height: 470px;
+    height: 800px;
 	display: block;
 	-webkit-transition: opacity 1s;
 	-moz-transition:    opacity 1s;
@@ -115,7 +115,7 @@ p{
 	z-index:1;
 	left:0;
 	width:100%;
-	height:470px;
+	height:800px;
 	overflow:auto;
 	outline: none; -webkit-appearance: none;
 }
@@ -865,7 +865,7 @@ input[type="submit"]:hover 		{
 @media only screen and (max-width: 959px) {
 	.step {
 	  width: 960px;
-      height: 470px;
+      height: 800px;
     }
 }
 
@@ -873,7 +873,7 @@ input[type="submit"]:hover 		{
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.step {
 	width: 768px;
-    height: 470px;
+    height: 800px;
     }
 }
 
@@ -881,7 +881,7 @@ input[type="submit"]:hover 		{
 @media only screen and (max-width: 767px) {
 	.step {
 	width: 300px;
-    height: 470px;
+    height: 800px;
     }
 	.block {
 	border-top-width: 2px;
@@ -953,6 +953,6 @@ input[type="submit"]:hover 		{
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.step {
 	width: 420px;
-    height: 470px;
+    height: 800px;
     }
 }
